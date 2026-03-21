@@ -1,4 +1,4 @@
-# Blog API - TAF1 INF222
+# Blog API - TAF INF222 EC1
 
 RESTful Backend API for managing a simple blog with full CRUD operations on articles.
 
