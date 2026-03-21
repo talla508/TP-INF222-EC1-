@@ -17,7 +17,7 @@ cd blog-api
 npm install
 npm run dev
 Server starts on http://localhost:3000
-
+```
 Swagger UI: http://localhost:3000/api-docs
 
 **Endpoints**
