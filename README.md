@@ -16,9 +16,10 @@ git clone https://github.com/talla508/blog-api.git
 cd blog-api
 npm install
 npm run dev
-Server starts on http://localhost:3000
 ```
-Swagger UI: http://localhost:3000/api-docs
+**Server starts on http**://localhost:3000
+
+**Swagger UI**: http://localhost:3000/api-docs
 
 **Endpoints**
 Method	Endpoint	Description
@@ -29,9 +30,9 @@ PUT	/api/articles/:id	Update an article
 DELETE	/api/articles/:id	Delete an article
 GET	/api/articles/search?query=text	Search articles
 Filters
-?categorie=Technology
-?auteur=Charles
-?date=21/03/2026
+categorie=Technology
+auteur=Charles
+date=21/03/2026
 Date Format
 All dates use DD/MM/YYYY format.
 
