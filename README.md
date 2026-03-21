@@ -23,7 +23,7 @@ npm install
 npm run dev
 
 # Start in production mode
-npm start
+npm start```
 
 Server starts on http://localhost:3000
 
