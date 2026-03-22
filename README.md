@@ -16,12 +16,12 @@ RESTful Backend API for managing a simple blog with full CRUD operations on arti
 
 ## Installation
 
-\`\`\`bash
+```bash
 git clone https://github.com/talla508/blog-api.git
 cd blog-api
 npm install
 npm run dev
-\`\`\`
+```
 
 - Server: http://localhost:3000
 - Swagger UI: http://localhost:3000/api-docs
