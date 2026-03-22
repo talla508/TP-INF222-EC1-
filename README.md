@@ -1,10 +1,7 @@
-const fs = require('fs');
-
-const content = `# Blog API - TAF INF222 EC1
+# Blog API - TAF INF222 EC1
 
 RESTful Backend API for managing a simple blog with full CRUD operations on articles.
 
----
 
 ## Technologies
 
@@ -42,21 +39,7 @@ npm run dev
 | DELETE | /api/articles/:id | Delete an article |
 | GET | /api/articles/search?query=text | Search articles |
 
-### Available Filters
 
-| Filter | Example |
-|--------|---------|
-| By category | /api/articles?categorie=Technology |
-| By author | /api/articles?auteur=Charles |
-| By date | /api/articles?date=22/03/2026 |
-
----
-
-## Date Format
-
-All dates use **DD/MM/YYYY** format.
-
----
 
 ## Project Structure
 
@@ -109,5 +92,4 @@ blog-api/
 **NZOKOU TALLA DUVAL**
 `;
 
-fs.writeFileSync('README.md', content, 'utf8');
-console.log('README.md created successfully!');
+
